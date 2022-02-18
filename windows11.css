@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background: #212f48;
+}
+.box {
+  width: 1200px;
+  height: 680px;
+  overflow: hidden;
+}
+
+.box img {
+  width: 100%;
+  transition: 15s;
+}
+.box:hover img {
+  transform: translateY(calc(-100% + 1000px));
+}
