@@ -23,7 +23,3 @@ body {
 .box:hover img {
   transform: translateY(calc(-100% + 1000px));
 }
-
-.stop:hover {
-  transform: none;
-}
